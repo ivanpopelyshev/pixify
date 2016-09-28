@@ -11,9 +11,10 @@ var args = minimist(process.argv.slice(2), {
         s: 'source',
         n: 'name',
         o: 'outputName',
-        w: 'watch'
+        w: 'watch',
+        t: 'typescript'
     },
-    boolean: 'watch',
+    boolean: ['watch', 'typescript'],
     string: [
         'name',
         'dest',
@@ -23,7 +24,8 @@ var args = minimist(process.argv.slice(2), {
     default: {
         dest: './bin/',
         source: './src/',
-        watch: false
+        watch: false,
+        typescript: false
     }
 });
 

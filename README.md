@@ -31,6 +31,7 @@ pixify --name my-library
 * **--exclude** or **-e** (optional) Folder names in `--source` to ignore, for custom builds.
 * **--outputName** or **-o** (optional) The name of the output file if different from `--name`. 
 * **--watch** or **-w** (default: `false`) `true` to run watchify when running bundling.
+* **--typesccript** or **-t** (default: `false`) for typescript transformation
 
 ## API Usage
 

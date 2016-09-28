@@ -1,7 +1,7 @@
 {
-  "name": "pixify",
+  "name": "pixify-ts",
   "version": "1.4.0",
-  "description": "Browserify bundle process for PIXI libraries",
+  "description": "Browserify bundle process for PIXI libraries with typescript",
   "main": "lib/pixify.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -39,6 +39,8 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "minimist": "^1.2.0",
+    "tsify": "^1.0.7",
+    "typescript": "^1.8.10",
     "vinyl-buffer": "^1.0.0",
     "vinyl-fs": "^2.4.3",
     "vinyl-source-stream": "^1.1.0",
