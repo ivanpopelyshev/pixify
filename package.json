@@ -1,6 +1,6 @@
 {
   "name": "pixify-ts",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Browserify bundle process for PIXI libraries with typescript",
   "main": "lib/pixify.js",
   "scripts": {
